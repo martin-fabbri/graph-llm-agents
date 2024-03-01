@@ -18,7 +18,7 @@ The primary goal of this playground is to explore the dynamics of coordinating L
 pip install poetry
 ```
 ### Step 2: Configuring Poetry
-It's a good practice to configure Poetry to create virtual environments within your project's directory. This keeps everything related to your project in one place.
+Set Poetry to create virtual environments within your project directory:
 ```bash
 poetry config virtualenvs.in-project true
 ```
