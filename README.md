@@ -12,3 +12,17 @@ The primary goal of this playground is to explore the dynamics of coordinating L
 - **Documentation & Guides**: In-depth explanations of the experiments and projects, including setup instructions, methodologies, and findings.
 - **Resources & References**: Curated list of resources, articles, and papers that provide additional context and support for the experiments conducted.
 
+## Setup Virtual Environment with Poetry
+### Step 1: Installing Poetry
+```bash
+pip install poetry
+```
+
+### Unix, Linux, macOS Installation
+
+Open a terminal and run:
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+
+
