@@ -17,12 +17,12 @@ The primary goal of this playground is to explore the dynamics of coordinating L
 ```bash
 pip install poetry
 ```
-
-### Unix, Linux, macOS Installation
-
-Open a terminal and run:
-
+### Step 2: Configuring Poetry
+It's a good practice to configure Poetry to create virtual environments within your project's directory. This keeps everything related to your project in one place.
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+poetry config virtualenvs.in-project true
+```
+
+
 
 
