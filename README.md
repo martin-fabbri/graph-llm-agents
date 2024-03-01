@@ -1,4 +1,4 @@
-# Graph-LLM-Playground
+# Graph LLMs Playground
 
 ## Overview
 This is a hub for exploring the integration of graph-based orchestration with LLMs. This repository is a collection of experiments, notebooks, and projects aimed at innovating and understanding the capabilities and applications of multi-actor LLM systems. It serves as a space for documenting a journey of discovery and innovation within the AI Agents domain.
