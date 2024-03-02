@@ -17,12 +17,21 @@ The primary goal of this playground is to explore the dynamics of coordinating L
 ```bash
 pip install poetry
 ```
+
 ### Step 2: Configuring Poetry
 Set Poetry to create virtual environments within your project directory:
 ```bash
 poetry config virtualenvs.in-project true
 ```
 
+### Step 3: Initialize the Project
+```bash
+poetry init
+```
 
+### Step 4: Install Project
+```bash
+poetry install
+```
 
 
