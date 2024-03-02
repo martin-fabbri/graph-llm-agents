@@ -2,7 +2,6 @@ from datetime import datetime
 
 from pydantic import BaseModel, EmailStr, PositiveInt, field_validator
 
-
 class User(BaseModel):
     id: int
     source: str
@@ -11,12 +10,12 @@ class User(BaseModel):
     signup_ts: datetime | None
     tastes: dict[str, PositiveInt]
 
-    @field_validator("source")
-    @classmethod
-    def source_must_start_with_prefix(cls, v: str) -> str:
-        if not v.startswith("XYZ"):
-            raise ValueError("must start with 'XYZ'")
-        return v.title
+    # @field_validator("source")
+    # @classmethod
+    # def source_must_start_with_prefix(cls, v: str) -> str:
+    #     if not v.startswith("XYZ"):
+    #         raise ValueError("must start with 'XYZ'")
+    #     return v.title
 
 
 external_data = {
@@ -37,12 +36,15 @@ print(user.id)
 print(user.model_dump())
 
 user_098_dump = """{
-    "id": 098, 
-    "source": "XYZ0000", 
-    "name": "John Doe", 
-    "email": "john@doe.com", 
-    "signup_ts": datetime.datetime(2019, 6, 1, 12, 22), 
-    "tastes": {"wine": 9, "cheese": 7, "cabbage": 1},
+    "id": 98,
+    "source": "XYZ0001",
+    "signup_ts": "2019-06-01 12:22",
+    "email": "x@y.com",
+    "tastes": {
+        "wine": 1,
+        "cheese": 2,
+        "cabbage": 3
+    }
 }"""
 
 user_098 = User.parse_raw(user_098_dump.replace("\n", ""))
