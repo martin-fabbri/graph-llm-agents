@@ -2,6 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel, EmailStr, PositiveInt, field_validator
 
+
 class User(BaseModel):
     id: int
     source: str
