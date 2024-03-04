@@ -20,6 +20,7 @@ langchainhub = "^0.1.14"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
+ipykernel = "^6.29.3"
 
 [build-system]
 requires = ["poetry-core"]
