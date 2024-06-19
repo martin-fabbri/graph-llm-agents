@@ -12,6 +12,14 @@ The primary goal of this playground is to explore the dynamics of coordinating L
 - **Documentation & Guides**: In-depth explanations of the experiments and projects, including setup instructions, methodologies, and findings.
 - **Resources & References**: Curated list of resources, articles, and papers that provide additional context and support for the experiments conducted.
 
+## WIP
+- [ ] LangGraph Exploration
+- [ ] [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+
+## Backlog
+- [ ] [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
+- [ ] [Efficient Tool Use with Chain-of-Abstraction Reasoning](https://arxiv.org/pdf/2401.17464.pdf)
+
 ## Setup Virtual Environment with Poetry
 ### Step 1: Installing Poetry
 ```bash
