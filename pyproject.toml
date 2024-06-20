@@ -22,6 +22,10 @@ tavily-python = "^0.3.3"
 langchain-fireworks = "^0.1.3"
 langchain-anthropic = "^0.1.15"
 google-generativeai = "^0.7.0"
+scipy = "^1.13.1"
+tenacity = "^8.4.1"
+tiktoken = "^0.7.0"
+termcolor = "^2.4.0"
 
 
 [tool.poetry.group.dev.dependencies]
