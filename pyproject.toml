@@ -33,6 +33,14 @@ datasets = "^2.20.0"
 gliner = "^0.2.4"
 wikipedia = "^1.4.0"
 neo4j = "^5.21.0"
+claudette = "^0.0.4"
+nbdev = "^2.3.25"
+ollama = "^0.2.1"
+jsonlines = "^4.0.0"
+llama-index = "^0.10.50"
+llama-index-graph-stores-neo4j = "^0.2.5"
+llama-index-program-openai = "^0.1.6"
+llama-index-llms-openai = "^0.1.23"
 
 
 [tool.poetry.group.dev.dependencies]
