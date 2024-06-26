@@ -6732,6 +6732,20 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [[package]]
+name = "yfiles-jupyter-graphs"
+version = "1.7.2"
+description = "A diagram visualization extension for JupyterLab and Jupyter Notebooks powered by yFiles for HTML"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "yfiles_jupyter_graphs-1.7.2-py3-none-any.whl", hash = "sha256:a95cb03cba9cd580c9cf5fd60ca3701c88531cf2a976442a4e4e035ed4deb260"},
+    {file = "yfiles_jupyter_graphs-1.7.2.tar.gz", hash = "sha256:77896845595f6bb3e3471181a95971b762c41b6f92ab40182623f512d17786b7"},
+]
+
+[package.dependencies]
+ipywidgets = ">=8.0.0"
+
+[[package]]
 name = "zipp"
 version = "3.19.2"
 description = "Backport of pathlib-compatible object wrapper for zip files"
@@ -6749,4 +6763,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e2924a2ac7c2bad3767f74b99239bb2632a95f7d2bd247cc14263f3a2d2515f5"
+content-hash = "f7944cf88a0bd5da348471955361756e51287b4069a8363cfef77bb890d6b708"
