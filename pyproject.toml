@@ -41,6 +41,8 @@ llama-index = "^0.10.50"
 llama-index-graph-stores-neo4j = "^0.2.5"
 llama-index-program-openai = "^0.1.6"
 llama-index-llms-openai = "^0.1.23"
+langchain-openai = "^0.1.10"
+chromadb = "^0.5.3"
 
 
 [tool.poetry.group.dev.dependencies]
