@@ -1,0 +1,18 @@
+{% extends "basic.jinja" %}
+
+{% block content %}
+{% block user_type %}
+{% if is_user_technical %} 
+    - The user is technical, you can answer the user using technical terms.
+    - User's programming skills:
+{% else %}
+    - The user is non technical, please answer him using non technical terms.
+{% endif %}
+{% endblock %}
+
+{% block user_skills %}
+{% for programming_language in programming_skills %}
+Programming language number {{ loop.index }}: {{ programming_language }}
+{% endfor %}
+{% endblock %}
+{% endblock %}
