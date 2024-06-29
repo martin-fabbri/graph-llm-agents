@@ -2456,6 +2456,26 @@ defusedxml = ">=0.7.1,<0.8.0"
 langchain-core = ">=0.2.2rc1,<0.3"
 
 [[package]]
+name = "langchain-chroma"
+version = "0.1.2"
+description = "An integration package connecting Chroma and LangChain"
+optional = false
+python-versions = "<4,>=3.8.1"
+files = [
+    {file = "langchain_chroma-0.1.2-py3-none-any.whl", hash = "sha256:0948f2975091dfef685a7981c140b8fd8a3b0f0602abba61abbcac7959beee4c"},
+    {file = "langchain_chroma-0.1.2.tar.gz", hash = "sha256:745a53b93e7ae058f9666a48e15ff211122656032ed0e8ffb7291b402f5bf23b"},
+]
+
+[package.dependencies]
+chromadb = ">=0.4.0,<0.6.0"
+fastapi = ">=0.95.2,<1"
+langchain-core = ">=0.1.40,<0.3"
+numpy = [
+    {version = ">=1,<2", markers = "python_version < \"3.12\""},
+    {version = ">=1.26.0,<2.0.0", markers = "python_version >= \"3.12\""},
+]
+
+[[package]]
 name = "langchain-community"
 version = "0.2.5"
 description = "Community contributed LangChain integrations."
@@ -6797,4 +6817,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0ff94e8b78af7c30d0ecfcd27288f57c7568a7d4b31a6800c475bc7f06ffa0c0"
+content-hash = "d3f88008c643dc93fb12d0cc7a230a0ab85af8baf86292355d4d15814e0d8787"
