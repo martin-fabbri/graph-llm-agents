@@ -161,3 +161,4 @@ cython_debug/
 
 # Chroma DB
 db-chromadb/
+chroma/
