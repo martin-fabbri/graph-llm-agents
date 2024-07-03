@@ -48,6 +48,7 @@ langchain-groq = "^0.1.6"
 langchain-chroma = "^0.1.2"
 duckduckgo-search = "^6.1.7"
 aiosqlite = "^0.20.0"
+open-clip-torch = "^2.24.0"
 
 
 [tool.poetry.group.dev.dependencies]
